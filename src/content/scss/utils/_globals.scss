@@ -1,0 +1,24 @@
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background : $yellowGradient;
+    display: flex;
+    flex-direction: column;
+}
+.footerContent{
+    flex: 1 0 auto;
+}
+
+
+form{  
+    .error{
+        border: 1px solid red !important ;
+    }
+}
+
+.throwError{
+    display: none;
+    visibility: hidden;
+}

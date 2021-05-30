@@ -1,0 +1,18 @@
+//styling footer
+footer{
+    flex-shrink: 0;
+    height: 80px;
+    padding-top: 30px;
+    box-shadow: 0 -5px 5px $opBlack;
+    background: $blueGradient;
+    color: white;
+    text-align: center;
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover{
+            color: $yellow;
+        }
+    }
+}

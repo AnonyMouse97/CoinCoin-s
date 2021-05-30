@@ -1,0 +1,31 @@
+// Import utils
+@import 'utils/_reset.scss';
+@import 'utils/_vars.scss';
+@import 'utils/_globals.scss';
+@import 'utils/_fonts.scss';
+
+// Import secondary/mobile
+@import 'secondary/mobile/_header.scss';
+@import 'secondary/mobile/_footer.scss';
+@import 'secondary/mobile/_form.scss';
+
+// Import main/mobile
+@import 'main/mobile/_connect.scss';
+@import 'main/mobile/_home.scss';
+@import 'main/mobile/_userSpace.scss';
+
+// Import tablet
+@media (min-width: 480px){
+    //secondary
+    @import 'secondary/tablet/_form.scss';
+    //main
+    @import 'main/tablet/_connect.scss';
+    @import 'main/tablet/_home.scss';
+    @import 'main/tablet/_userSpace.scss';
+}
+
+
+// Import desktop
+@media (min-width: 1025px){
+	
+}

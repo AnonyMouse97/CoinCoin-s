@@ -1,0 +1,30 @@
+.connectForm, .updateUserForm{
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-shadow: 0 4px 4px $opBlack;  
+        }
+        input{
+            width: 70%;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: inset 0 0 5px $opBlack;
+            margin-bottom: 20px;  
+        }
+        input[type=submit]{
+            width: 30%;
+            border: none;
+            box-shadow: 0 0 5px $opBlack;
+            &:hover{
+                background-color:$blue;
+                color: white;
+            }
+        }
+    }
+}

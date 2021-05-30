@@ -1,0 +1,72 @@
+//styling nav
+b{
+    font-weight: bold;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 40px;
+    background: $blueGradient;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    box-shadow: 0 5px 5px $opBlack;
+
+    .homeLogo{
+       display: none;
+       visibility: hidden;
+    }
+    .menuLogo{
+        height: 30px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .header{
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .userCoins{
+            display: flex;
+            align-items: center;
+            p{
+                padding-left: 10px;
+            }
+        }
+    }
+    nav{
+        display: none;
+        ul{
+            flex-direction: column;
+            display: flex;
+            li{
+                text-align: center;
+                background-color: $dark-blue;
+                border-bottom: 1px solid $grey;
+                a{
+                    display: block;
+                    padding: 15px 0;
+                    width: 100%;
+                    color: white;
+                    text-decoration: none;
+                }
+                &:hover{
+                    background-color: $grey;
+                }
+            }
+        }
+        li:first-child{
+            background: $blueGradient;
+            p{
+                margin-bottom: 10px;
+            }
+        }
+        li:nth-child(2){
+            box-shadow: inset 0px 5px 5px $opBlack;
+        }
+    }
+}

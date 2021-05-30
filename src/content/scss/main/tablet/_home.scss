@@ -1,0 +1,11 @@
+//styling bets
+.homeBets{
+    .allOdds{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        article{
+            width: 30%;
+        }
+    }
+}

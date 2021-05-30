@@ -1,0 +1,54 @@
+//aside
+.userSpaceNav{
+    background: $blueGradient;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px $opBlack;;
+    ul{
+    display: flex;
+    justify-content: space-around;
+    //padding-bottom: 30px;
+        a{
+        color: white;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-decoration: none;
+        text-shadow: 0 4px 4px $opBlack;
+            &:hover{
+                color: $yellow;
+            }
+        }   
+    }
+}
+
+// user bets
+.userBets{
+    color: white;
+    margin: 15px 40px;
+    h3{
+        font-weight: bold;
+        text-shadow: 0 4px 4px $opBlack;
+        margin-bottom: 15px;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 0 5px $opBlack;
+        th,td{
+            padding: 15px;;
+        }
+        th{
+            background-color: $dark-blue;
+            font-weight: bold;
+        }
+        td{
+            background-color: $blue;
+            text-align: center;
+        }
+        a>img{
+            height: 20px;
+        }
+    }
+}

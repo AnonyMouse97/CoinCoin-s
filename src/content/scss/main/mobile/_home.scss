@@ -1,0 +1,71 @@
+//styling bets
+h2{
+    font-size: 1.7em;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 4px 4px $opBlack;
+    
+}
+.homeBets{
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    h3{
+        padding: 15px;
+        font-size: 1.3em;
+        font-weight: bold;
+        text-shadow: 0 4px 4px $opBlack;
+    }
+    article{
+        margin: 15px;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px $opBlack;
+        background: $blueGradient;
+        h4{
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 0 4px 4px $opBlack;
+        }
+        .odds{
+            width: 80px;
+            margin: 0 auto 15px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: inset 0 0 5px $opBlack;
+            background-color: white;
+            color: black;
+            p:nth-child(2){
+                padding-top: 5px;
+                font-weight: bold;
+            }
+        }
+        input[type=number]{
+            margin: 0 auto;
+            width: 50px;
+            height: 40px;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            box-shadow: inset 0 0 5px $opBlack;
+        }
+        input[type=submit]{
+            height: 40px;
+            width: 50px;
+            padding: 10px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            &:hover{
+                cursor: pointer;
+                background-color: $dark-blue;
+                color: white;
+            }
+        }
+    }
+}
